@@ -1,0 +1,16 @@
+# Environnements
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Modèles lourds (ne pas pousser sur GitHub)
+*.pkl
+*.safetensors
+*.bin
+camembert-allocine/
+
+# Données volumineuses
+data/*.csv
+
+# Système
+.DS_Store
